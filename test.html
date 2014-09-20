@@ -1,0 +1,331 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>LifeWin - Habits to Success</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="Pitamber Singh">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LifeWin - Habits to Success | Homepage</title>
+        <link href="css/icomoon.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <!--CSS SECTION END-->
+    </head>
+    
+    <body>
+        <div class="modal fade" id="login_signup_box">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-6 loginbox">
+                                <h4 class="modal-title">Login to your account</h4>
+                                <div class="form-group">
+                                <a href="https://www.facebook.com/dialog/oauth?client_id=834481703238074&redirect_uri=http://lifewin.co/app.php" class="btn btn-primary btn-fb">Login With Facebook</a>
+                                </div>
+                                <div class="form-group">
+                                    <a href="#" class="btn btn-danger btn-google">Login With Google +</a>
+                                </div>
+                                <div class="form-group">
+                                    <img src="img/sep.png" alt="">
+                                </div>
+                                <div class="clearfix"></div>
+                                <form method="post">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email_login" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="password_login" placeholder="Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <p class="text-left"><a href="#">Forgot Password </a></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary">Login</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 signup">
+                                <h4 class="modal-title">Sign up to play</h4>
+                                <form method="post">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="password" placeholder="Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="confirmpassword" placeholder="Confirm Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-danger">Sign Up</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        <header>
+            <div id="headerNav">
+                <div class="container">
+                    <div class="row">
+                        <nav class="navbar navbar-default" role="navigation">
+                            <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header col-md-3">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-menu">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <h1 id="logo"><a href="http://lifewin.co/">LifeWin</a></h1>
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-menu">
+                                    <ul class="nav navbar-nav">
+                                        <li class="active"><a href="#">Home</a></li>
+                                        <li><a href="#">Benefits</a></li>
+                                        <li><a href="#">Solutions</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                    </ul>
+
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="#" data-toggle="modal" data-target="#login_signup_box">Signup/Login</a></li>
+                                    </ul>
+                                </div><!-- /.navbar-collapse -->
+                            </div><!-- /.container-fluid -->
+                        </nav>            
+                    </div><!--row-->
+                </div><!--container-->
+            </div><!--headernav-->
+        </header>
+
+        <div class="clearfix"></div>
+
+        <section id="banner">
+            <div id="carousel-slider-top" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-slider-top" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-slider-top" data-slide-to="1"></li>
+                    <li data-target="#carousel-slider-top" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="img/slide1.jpg" alt="Take Your First Ftep, Towards Productivity."/>
+                        <div class="carousel-caption">
+                            <h1>Take Your First Step<br>
+                                Towards Productivity</h1>
+                            <button class="btn1">Get Started!</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/slide2.jpg" alt="Get to Work, Enter the Zone."/>
+                        <div class="carousel-caption">
+                            <h1>Get to Work<br>
+                                Realise Flow</h1>
+                            <button class="btn1">Enter the Zone!</button>
+                        </div>
+                    </div>        
+
+                    <div class="item">
+                        <img src="img/slide3.jpg" alt=""/>
+                        <div class="carousel-caption">
+                            <h1>Change Your Life<br>
+                                One Day at a time</h1>
+                            <button class="btn1">Get Started!</button>
+                        </div>
+                    </div>    
+                </div><!--carousel-inner-->
+            </div>
+        </section>
+
+        <div class="clearfix"></div>
+
+        <section id="home_devices">
+            <div class="container">
+                <div class="row">
+                    <div class="device">
+                        <div class="col-sm-6 col-md-5 col-md-offset-1">
+                            <font size="48">
+                            <span class="icon-file"></span>
+                            <span class="icon-stopwatch"></span>
+                            <span class="icon-checkmark"></span>
+                            <!--Too many icons becoming overwhelming
+                            <span class="icon-calendar"></span>
+                            <span class="icon-alarm"></span>
+                            <span class="icon-bars"></span>-->
+                            </font>
+                            <h4>Next Generation of Personal Productivity Apps</h4>
+                            <p>Have something that you really want to do, but caught up with other stuff? Boost your productiviy by making them "Urgent" - or else you loose the game!</p><br>
+                            <p>Procastration and unhealthy habits feels so good? With our subtle rewards and punishments, alter whats' a reward and whats' not!</p>
+                        </div>
+
+                        <div class="col-sm-6 col-md-5">
+                            <img src="img/device.png" alt="" class="img-responsive"/>	
+                        </div> 
+                    </div><!--device--> 
+
+                    <div class="clearfix"></div>
+
+                    <div class="benefits">
+                        <h2>Specialities</h2>
+                        <div class="col-xs-6 col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                <img src="img/img1.png" alt="" class="img-responsive" />
+                                <div class="caption">
+                                    <h4>Self Management</h4>
+                                    <!--When you do self management, you will have more time than you know what to do with.
+                                                                                                                          - The 7 Habits of Highly Effective People-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                <img src="img/img2.png" alt="" class="img-responsive" />
+                                <div class="caption">
+                                    <h4>Intrinsic Motivation</h4>
+                                    <!--For the first time in world, a system and an app without External Pressures and Extrinsic Motivation, but your own Conscious and Internal Drive.-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                <img src="img/img3.png" alt="" class="img-responsive" />
+                                <div class="caption">
+                                    <h4>Instant Gratification</h4>
+                                    <!--Get awarded instantly with points and even free time for stuff you really want to do. What's more you will no longer feel rewarded for the your not-so-healty habits of Procastration and Fast food!-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                <img src="img/img4.png" alt="" class="img-responsive" />
+                                <div class="caption">
+                                    <h4>Success!</h4>
+                                    <!--Self Control is the best determinant of success, no matter what are your financial and educational conditions,
+                                    no matter how you measure success.
+                                                                                            - Dan Ariely-->
+                                </div>
+                            </div>
+                        </div>                                                
+                    </div><!--benefits-->          
+                </div>
+            </div><!--container-->
+
+            <div class="signup_section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>What will you do to win?</h2>
+                            <button class="btn1">Get Started!</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div><!--signup section-->    
+
+            <div class="clearfix"></div>
+            <!--Testimonials, to be included, when the we have some {adding hide class will not show testimonial } -->
+            <div class="container hide">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="home_testimonial">
+                            <h2>What the users say</h2>
+                            <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
+                                <!-- Wrapper for slides -->
+
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="img/user1.png" alt="slide1" class="img-responsive" />
+                                        <div class="carousel-caption_user">
+                                            <h5>Jenna Sue</h5>
+                                            <p>"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. "</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="img/user1.png" alt="slide1" class="img-responsive" />
+                                        <div class="carousel-caption_user">
+                                            <h5>Jenna Sue</h5>
+                                            <p>"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. "</p>
+                                        </div>
+                                    </div>        
+
+                                    <div class="item">
+                                        <img src="img/user1.png" alt="slide1" class="img-responsive" />
+                                        <div class="carousel-caption_user">
+                                            <h5>Jenna Sue</h5>
+                                            <p>"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. "</p>
+                                        </div>
+                                    </div>    
+                                </div><!--carousel-inner-->
+                                <!-- Controls -->
+                                <a class="left carousel-control" href="#carousel-testimonial" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-testimonial" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <div class="clearfix"></div>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2 col-md-2">
+                        <h2><a href="http://lifewin.co/">LifeWin</a></h2>
+                    </div>
+                    <div class="col-sm-8 col-md-8">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Benefits</a></li>
+                            <li><a href="#">Solutions</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div> 
+                    <div class="col-sm-2 col-md-2">
+                        <ul>
+                            <li><a target="_blank" href="https://www.facebook.com/lifewinapp"><img src="img/fb.png" alt="" class="img-responsive" /></a></li>
+                            <li><a target="_blank" href="https://twitter.com/lifewinapp"><img src="img/twitter.png" alt="" class="img-responsive" /></a></li>
+                            <!--Link to Google Profile hidden, as we have none
+        <li><a target="_blank" href="#"><img src="img/google.png" alt="" class="img-responsive" /></a></li>-->
+                        </ul>
+                    </div>                        
+                </div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" charset="utf-8" src="js/jquery-2.0.3.min.js"></script> 
+        <script type="text/javascript" charset="utf-8" src="js/bootstrap.min.js"></script> 
+        <script type="text/javascript" charset="utf-8" src="js/custom.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jquery.flexisel.js"></script>
+
+    </body>
+</html>

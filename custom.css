@@ -1,0 +1,941 @@
+/*Fixes the bottom toolbar*/
+.container {
+    max-width: none;
+    width: auto !important;
+}
+
+.tick_img{position:relative}
+.png-over{position:absolute; top:10; left:10}
+
+.inTag0, .inTag1, .inTag2, .inTag3{
+	cursor: move;
+	}
+
+body{padding-bottom:0px;}
+.b_fix{
+
+    height: 55px;
+
+    display: block;
+
+    -webkit-border-radius: 0px;
+
+    -moz-border-radius: 0px;
+
+    border-radius: 0px;
+
+}
+
+
+
+.stop_fix{
+
+    width: 80px;
+
+    color: white;
+
+    font-size: 12pt;
+
+    background-color: #797878;
+
+}
+
+.tags .list-group-item
+{
+    margin-top:50px;
+}
+
+/* DatePicker Container */
+.ui-datepicker {
+    width: 222px;
+    height: auto;
+    margin: 5px auto;
+    font: 9pt Arial, sans-serif;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+}
+.ui-datepicker a {
+    text-decoration: none;
+}
+/* DatePicker Table */
+.ui-datepicker table {
+    width: 100%;
+    margin:0;
+}
+.ui-datepicker-header {
+    background: url('./img/dark_leather.png') repeat 0 0 #000;
+    color: #e0e0e0;
+    font-weight: bold;
+    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, 2);
+    -moz-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+    box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+    text-shadow: 1px -1px 0px #000;
+    filter: dropshadow(color=#000, offx=1, offy=-1);
+    line-height: 30px;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #111;
+}
+.ui-datepicker-title {
+    text-align: center;
+}
+.ui-datepicker-prev, .ui-datepicker-next {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-image: url('./img/arrow.png');
+    background-repeat: no-repeat;
+    line-height: 600%;
+    overflow: hidden;
+}
+.ui-datepicker-prev {
+    float: left;
+    background-position: center -30px;
+}
+.ui-datepicker-next {
+    float: right;
+    background-position: center 0px;
+}
+.ui-datepicker thead {
+    background-color: #f7f7f7;
+    background-image: -moz-linear-gradient(top,  #f7f7f7 0%, #f1f1f1 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#f1f1f1));
+    background-image: -webkit-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+    background-image: -o-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+    background-image: -ms-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+    background-image: linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f1f1f1',GradientType=0 );
+    border-bottom: 1px solid #bbb;
+}
+.ui-datepicker th {
+    text-transform: uppercase;
+    font-size: 6pt;
+    padding: 5px 0;
+    color: #666666;
+    filter: dropshadow(color=#fff, offx=1, offy=0);
+}
+.ui-datepicker tbody td {
+    padding: 0;
+    border-right: 1px solid #bbb;
+}
+.ui-datepicker tbody td:last-child {
+    border-right: 1px solid #bbb;
+}
+.ui-datepicker tbody tr {
+    border-bottom: 1px solid #bbb;
+}
+.ui-datepicker tbody tr:last-child {
+    border-bottom: 0px;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #666666;
+    filter: dropshadow(color=#fff, offx=1, offy=1);
+}
+.ui-datepicker-calendar .ui-state-default {
+    background: #ededed;
+    background: -moz-linear-gradient(top,  #ededed 0%, #dedede 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#dedede));
+    background: -webkit-linear-gradient(top,  #ededed 0%,#dedede 100%);
+    background: -o-linear-gradient(top,  #ededed 0%,#dedede 100%);
+    background: -ms-linear-gradient(top,  #ededed 0%,#dedede 100%);
+    background: linear-gradient(top,  #ededed 0%,#dedede 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#dedede',GradientType=0 );
+    -webkit-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+    -moz-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+    box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+}
+.ui-datepicker-calendar .ui-state-hover {
+    background: #f7f7f7;
+}
+.ui-datepicker-current-day{
+    background: #6eafbf;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+    color: #e0e0e0;
+    filter: dropshadow(color=#4d7a85, offx=0, offy=1);
+    border: 1px solid #55838f;
+    position: relative;
+}
+
+.ui-datepicker-unselectable .ui-state-default {
+    background: #dddddd;
+    color: #000;
+}
+.ui-datepicker-calendar td:first-child .ui-state-active {
+    width: 30px;
+    margin-left: 0;
+}
+.ui-datepicker-calendar td:last-child .ui-state-active {
+    width: 30px;
+    margin-right: 0;
+}
+.ui-datepicker-calendar tr:last-child .ui-state-active {
+    height: 30px;
+    margin-bottom: 0;
+}
+.hiddenclass{
+    display:none;
+}
+#sidebar{
+   
+}
+
+#sidebar a{
+   color: #637b82;
+    font-size: 18px;
+    -moz-transition:0.2s all ease-out;
+    -webkit-transition:0.2s all ease-out;
+    -o-transition:0.2s all ease-out;
+    -ms-transition:0.2s all ease-out;
+    padding:5px 5px 5px 20px;
+}
+#sidebar a:hover {
+    background:#4890a8;
+    border-radius: 0;
+    color: #fff;
+    padding-left:22px;
+}
+.page-container{
+    width:100%;
+    height:auto;
+}
+.container{
+    width:100%;
+}
+.navbar{
+    width:100%;
+}
+.navbar-header .input-group{
+    width:100%;
+}
+.col-sm-9{
+    
+    height: 100%;
+    min-height: 90vh;
+    /*background-image: url("img/bg.jpg");*/
+    background-size: cover;
+    margin-top: -25px;
+}
+.col-xs-6 .col-sm-3 .sidebar-offcanvas{
+    height:100%;
+    min-height: 90vh;
+    background:#eee;
+}
+#selectbg{
+    position:absolute;
+    top:0;
+    left:50%;
+    margin-left:-277.77px;
+    overflow:hidden;
+    width:555px;
+    height:50px;
+}
+#selectbg img{
+    display:inline;
+    height:50px;
+    cursor: pointer;
+}
+
+
+.toolbar {
+    float: right;
+}
+.footer {
+    background: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+}    
+.tickDay a{
+    background-color : #6eafbf !important;
+    background-image :none !important;
+    color: White !important;
+}
+.navbar-nav .open .dropdown-menu {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    float: right;
+    margin-top: 2px;
+    padding: 5px 0;
+    position: absolute;
+    text-align: left;
+    width: auto;
+}
+/*******New css for styling********/
+#headerNav nav.navbar.navbar-default.navbar-fixed-top {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #ccc !important;
+}
+#headerNav .nav.navbar-nav.navbar-right li a{background: #fff;color: #2a3133;}
+img.user_img {
+    border-radius: 16px;
+    height: 32px;
+    margin-right:2px;
+    width: 32px;
+}#headerNav .navbar li a{line-height:30px;padding:4px 10px;margin: 15px 0;}
+h1#logo{line-height: 70px;}
+.menu-options {
+    color: #4890a8 !important;
+}
+.logout {
+    background:#f37a5d;
+    color: #fff;
+    display: inline;
+    padding: 10px 20px;
+}
+.inner-content-wrapper {
+    background:#fff;
+    border: 1px solid #fff;
+    padding: 0px;
+    margin-top: 75px;
+}.btn:before{background: transparent;}
+.btn:hover:before {width:0px; height:0px;}
+h2.navbar-brand{color: #f37a5d!important;font-size: 30px;padding-left: 0px;}
+
+.btn.btn-default.b_fix.stop_fix {background:#f37a5d;border-color: #f37a5d;color: #fff;width: 106px;}
+.btn.btn-default.b_fix.icon-stopwatch {background: url("img/timer.png") no-repeat scroll center center rgba(0, 0, 0, 0);border-right: 0 none;width: 42px;}
+.btn.btn-default.b_fix.icon-stopwatch.running{background: url("img/timer_red.png") no-repeat scroll center center rgba(0, 0, 0, 0);}
+.btn.btn-default.b_fix.icon-clock {background: url("img/clock.png") no-repeat scroll center center rgba(0, 0, 0, 0);border-right: 0 none;width: 42px;}
+.btn.btn-default.b_fix.icon-clock.running{background: url("img/clock_red.png") no-repeat scroll center center rgba(0, 0, 0, 0);}
+.inner-content-wrapper .input-group .btn.btn-default {background:#4890a8;border-color: #4890a8;border-radius: 0;color: #fff;width: 90px;}
+.navbar.navbar-default {margin-top: 15px;}#headerNav .navbar li:last-child{margin-right:0px;}
+.btn.btn-default.dropdown-toggle.b_fix.icon-plus {}
+.container-head .input-group-addon span {background:#fff;border:1px solid #4890a8;color: #4890a8;display: block;height: 38px;line-height: 38px;padding: 0 10px;margin-right:5px;}.navbar-header .input-group-addon {background:transparent;border: 0 none;padding: 0;}
+.modal-dialog{max-width: 550px;}
+.list-group .input-group .input-group-addon label {display:block;}
+.list-group .input-group {
+    margin-bottom: 15px;
+}#list.list-group .inTag0 .input-group a.list.list-group-item {
+    background: none repeat scroll 0 0 #f6d1c8;
+    border: 1px solid #f37a5d;
+    border-radius: 0;
+    color: #2a3133;
+    font-family: 'source_sans_proregular';
+    font-size: 14px;
+    padding-left: 15px;padding-top: 6px;padding-bottom: 6px;
+}
+.list-group .input-group-addon {
+    background:#fff;
+    border:0;
+    border-radius: 0;
+    padding: 0 20px 0 0;
+}
+.tags.list-group-item,#list .list-group-item {
+    border: 0 none;
+    color: #2a3133;
+    font-family: 'source_sans_prosemibold';
+    font-size: 18px;
+    padding-left: 0;cursor: pointer;padding-bottom: 4px;border-bottom: 1px solid #CCC;border-radius: 0px;margin-bottom: 5px;
+}.tags.list-group-item > .badge,#list .list-group-item > .badge {
+       background-color: #CCC;color: #637b82;
+    border-radius: 0;
+    font-size: 14px;
+    margin: 4px -15px 0 3px;
+    padding: 6px 10px;
+}.toolbar span {
+    color: #f37a5d;
+    margin: 0 6px;
+}.toolbar span.point.badge {
+   background-color: #f37a5d;
+    border-radius: 0;
+    color: #fff;
+    float: right;
+    font-size: 14px;
+    margin-right: -15px;
+    margin-top: -7px;
+    padding: 10px 12px;
+}
+.list.list-group-item.list-design{ 
+  background: none repeat scroll 0 0 #f6d1c8;
+    border: 1px solid #f37a5d !important;
+    border-radius: 0;
+    color: #2a3133 !important;
+    font-family: 'source_sans_proregular' !important;
+    font-size: 14px !important;
+    padding-bottom: 6px !important;
+    padding-left: 15px !important;
+    padding-top: 6px;
+    }
+    .footer .container {
+    padding: 0;
+}
+.list-group li {
+    margin-bottom: 20px !important;
+}
+.list-group{margin-bottom: 0px;}
+.timer-wrapper {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}.btn.btn-default.btn-danger.b_fix.stop_fix {
+    height: 36px;
+    width: 100%;
+}
+.btn.btn-default.b_fix.icon-stopwatch,.btn.btn-default.b_fix.icon-clock{
+   background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    height: 40px;
+    margin-bottom: 10px;
+    width: 65px;
+}
+
+
+/*Css media Queires*/
+@media all and (max-width : 992px) {
+    
+#sidebar a{padding-left: 25px;}
+#sidebar a:hover{padding-left: 28px;}
+
+}
+
+@media all and (max-width : 767px) {
+
+    /*  NEW CSS MEDIA */
+    .navbar-fixed-top .nav.navbar-nav.navbar-right > li {display: inline-block !important;width: auto !important;}
+    .nav.navbar-nav.navbar-right {text-align: right;}
+    .logout-text,#username{display: none;}
+    .nav.navbar-nav.navbar-right,img.user_img {margin: 0;}
+    .logout {background:#fff;color: #4890a8;display: inline;padding: 0;}
+    #headerNav .nav.navbar-nav.navbar-right li a{padding: 0 4px;}
+    .navbar-toggle.btn.btn-default {border-radius: 0;background-color: #f37a5d;border-color: #f37a5d;width: auto;}
+    .navbar-default .navbar-toggle .icon-bar{background-color: #fff;}
+    #headerNav .navbar li:last-child{margin-right:0px;}
+    /*End NEw*/
+    .hiddenclass{
+        display:inline;		
+    }
+    .ui-datepicker {
+        margin: 5px 0px;
+    }
+    #sidebar a{
+        background:none;
+    }
+    #sidebar a:hover{
+        padding-left:15px;
+    }.toolbar {
+    display: block;
+    float: none;
+}
+}
+@media all and (max-width : 420px) {
+    .ui-datepicker {
+        width:100%;
+        margin: 5px 0px;
+    }
+    .ui-datepicker td span, .ui-datepicker td a {
+        width:100%;
+    }
+    .ui-datepicker-calendar td:first-child .ui-state-active {
+        width: 100%;
+    }
+    .ui-datepicker-calendar td:last-child .ui-state-active {
+        width: 100%;
+    }
+    .ui-datepicker-calendar tr:last-child .ui-state-active {
+        height:100%;
+    }
+}
+@media all and (max-width : 479px) {
+    #time{font-size: 12px;}
+}
+
+/*Fixes the bottom toolbar*/
+.container {
+    max-width: none;
+    width: auto !important;
+}
+body{padding-bottom:0px;}
+.b_fix{
+
+    height: 55px;
+
+    display: block;
+
+    -webkit-border-radius: 0px;
+
+    -moz-border-radius: 0px;
+
+    border-radius: 0px;
+
+}
+
+
+
+.stop_fix{
+
+    width: 80px;
+
+    color: white;
+
+    font-size: 12pt;
+
+    background-color: #797878;
+
+}
+
+.tags .list-group-item
+{
+    margin-top:50px;
+}
+
+/* DatePicker Container */
+.ui-datepicker {
+    width: 222px;
+    height: auto;
+    margin: 5px auto;
+    font: 9pt Arial, sans-serif;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+}
+.ui-datepicker a {
+    text-decoration: none;
+}
+/* DatePicker Table */
+.ui-datepicker table {
+    width: 100%;
+    margin:0;
+}
+.ui-datepicker-header {
+    background: url('./img/dark_leather.png') repeat 0 0 #000;
+    color: #e0e0e0;
+    font-weight: bold;
+    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, 2);
+    -moz-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+    box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+    text-shadow: 1px -1px 0px #000;
+    filter: dropshadow(color=#000, offx=1, offy=-1);
+    line-height: 30px;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #111;
+}
+.ui-datepicker-title {
+    text-align: center;
+}
+.ui-datepicker-prev, .ui-datepicker-next {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-image: url('./img/arrow.png');
+    background-repeat: no-repeat;
+    line-height: 600%;
+    overflow: hidden;
+}
+.ui-datepicker-prev {
+    float: left;
+    background-position: center -30px;
+}
+.ui-datepicker-next {
+    float: right;
+    background-position: center 0px;
+}
+.ui-datepicker thead {
+    background-color: #f7f7f7;
+    background-image: -moz-linear-gradient(top,  #f7f7f7 0%, #f1f1f1 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#f1f1f1));
+    background-image: -webkit-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+    background-image: -o-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+    background-image: -ms-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+    background-image: linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f1f1f1',GradientType=0 );
+    border-bottom: 1px solid #bbb;
+}
+.ui-datepicker th {
+    text-transform: uppercase;
+    font-size: 6pt;
+    padding: 5px 0;
+    color: #666666;
+    filter: dropshadow(color=#fff, offx=1, offy=0);
+}
+.ui-datepicker tbody td {
+    padding: 0;
+    border-right: 1px solid #bbb;
+}
+.ui-datepicker tbody td:last-child {
+    border-right: 1px solid #bbb;
+}
+.ui-datepicker tbody tr {
+    border-bottom: 1px solid #bbb;
+}
+.ui-datepicker tbody tr:last-child {
+    border-bottom: 0px;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #666666;
+    filter: dropshadow(color=#fff, offx=1, offy=1);
+}
+.ui-datepicker-calendar .ui-state-default {
+    background: #ededed;
+    background: -moz-linear-gradient(top,  #ededed 0%, #dedede 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#dedede));
+    background: -webkit-linear-gradient(top,  #ededed 0%,#dedede 100%);
+    background: -o-linear-gradient(top,  #ededed 0%,#dedede 100%);
+    background: -ms-linear-gradient(top,  #ededed 0%,#dedede 100%);
+    background: linear-gradient(top,  #ededed 0%,#dedede 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#dedede',GradientType=0 );
+    -webkit-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+    -moz-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+    box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+}
+.ui-datepicker-calendar .ui-state-hover {
+    background: #f7f7f7;
+}
+.ui-datepicker-current-day{
+    background: #6eafbf;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+    color: #e0e0e0;
+    filter: dropshadow(color=#4d7a85, offx=0, offy=1);
+    border: 1px solid #55838f;
+    position: relative;
+}
+
+.ui-datepicker-unselectable .ui-state-default {
+    background: #dddddd;
+    color: #000;
+}
+.ui-datepicker-calendar td:first-child .ui-state-active {
+    width: 30px;
+    margin-left: 0;
+}
+.ui-datepicker-calendar td:last-child .ui-state-active {
+    width: 30px;
+    margin-right: 0;
+}
+.ui-datepicker-calendar tr:last-child .ui-state-active {
+    height: 30px;
+    margin-bottom: 0;
+}
+.hiddenclass{
+    display:none;
+}
+#sidebar{
+   
+}
+
+#sidebar a{
+   color: #637b82;
+    font-size: 18px;
+    -moz-transition:0.2s all ease-out;
+    -webkit-transition:0.2s all ease-out;
+    -o-transition:0.2s all ease-out;
+    -ms-transition:0.2s all ease-out;
+    padding:5px 5px 5px 20px;
+}
+#sidebar a:hover {
+    background:#4890a8;
+    border-radius: 0;
+    color: #fff;
+    padding-left:22px;
+}
+.page-container{
+    width:100%;
+    height:auto;
+}
+.container{
+    width:100%;
+}
+.navbar{
+    width:100%;
+}
+.navbar-header .input-group{
+    width:100%;
+}
+.col-sm-9{
+    
+    height: 100%;
+    min-height: 90vh;
+    /*background-image: url("img/bg.jpg");*/
+    background-size: cover;
+    margin-top:-25px;
+}
+.col-xs-6 .col-sm-3 .sidebar-offcanvas{
+    height:100%;
+    min-height: 90vh;
+    background:#eee;
+}
+#selectbg{
+    position:absolute;
+    top:0;
+    left:50%;
+    margin-left:-277.77px;
+    overflow:hidden;
+    width:555px;
+    height:50px;
+}
+#selectbg img{
+    display:inline;
+    height:50px;
+    cursor: pointer;
+}
+
+
+.toolbar {
+    float: right;
+}
+.footer {
+    background: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+}    
+.tickDay a{
+    background-color : #6eafbf !important;
+    background-image :none !important;
+    color: White !important;
+}
+.navbar-nav .open .dropdown-menu {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    float: right;
+    margin-top: 2px;
+    padding: 5px 0;
+    position: absolute;
+    text-align: left;
+    width: auto;
+}
+/*******New css for styling********/
+#headerNav nav.navbar.navbar-default.navbar-fixed-top {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #ccc !important;
+}
+#headerNav .nav.navbar-nav.navbar-right li a{background: #fff;color: #2a3133;}
+img.user_img {
+    border-radius: 16px;
+    height: 32px;
+    margin-right:2px;
+    width: 32px;
+}#headerNav .navbar li a{line-height:30px;padding:4px 10px;margin: 15px 0;}
+h1#logo{line-height: 70px;}
+.menu-options {
+    color: #4890a8 !important;
+}
+.logout {
+    background:#f37a5d;
+    color: #fff;
+    display: inline;
+    padding: 10px 20px;
+}
+.inner-content-wrapper {
+    background:#fff;
+    border: 1px solid #fff;
+    padding: 0px;
+    margin-top: 75px;
+}.btn:before{background: transparent;}
+.btn:hover:before {width:0px; height:0px;}
+h2.navbar-brand{color: #f37a5d!important;font-size: 30px;padding-left: 0px;}
+
+.btn.btn-default.b_fix.stop_fix {background:#f37a5d;border-color: #f37a5d;color: #fff;width: 106px;}
+.btn.btn-default.b_fix.icon-stopwatch {background: url("img/timer.png") no-repeat scroll center center rgba(0, 0, 0, 0);border-right: 0 none;width: 42px;}
+.btn.btn-default.b_fix.icon-stopwatch.running{background: url("img/timer_red.png") no-repeat scroll center center rgba(0, 0, 0, 0);}
+.btn.btn-default.b_fix.icon-clock {background: url("img/clock.png") no-repeat scroll center center rgba(0, 0, 0, 0);border-right: 0 none;width: 42px;}
+.btn.btn-default.b_fix.icon-clock.running{background: url("img/clock_red.png") no-repeat scroll center center rgba(0, 0, 0, 0);}
+.inner-content-wrapper .input-group .btn.btn-default {background:#4890a8;border-color: #4890a8;border-radius: 0;color: #fff;width: 90px;}
+.navbar.navbar-default {margin-top: 15px;}#headerNav .navbar li:last-child{margin-right:0px;}
+.btn.btn-default.dropdown-toggle.b_fix.icon-plus {}
+.container-head .input-group-addon span {background:#fff;border:1px solid #4890a8;color: #4890a8;display: block;height: 38px;line-height: 38px;padding: 0 10px;margin-right:5px;}.navbar-header .input-group-addon {background:transparent;border: 0 none;padding: 0;}
+.modal-dialog{max-width: 550px;}
+.list-group .input-group .input-group-addon label {display:block;}
+.list-group .input-group {
+    margin-bottom: 15px;
+}#list.list-group .inTag0 .input-group a.list.list-group-item {
+    background: none repeat scroll 0 0 #f6d1c8;
+    border: 1px solid #f37a5d;
+    border-radius: 0;
+    color: #2a3133;
+    font-family: 'source_sans_proregular';
+    font-size: 14px;
+    padding-left: 15px;padding-top: 6px;padding-bottom: 6px;
+}
+.list-group .input-group-addon {
+    background:#fff;
+    border:0;
+    border-radius: 0;
+    padding: 0 20px 0 0;
+}
+.tags.list-group-item,#list .list-group-item {
+    border: 0 none;
+    color: #2a3133;
+    font-family: 'source_sans_prosemibold';
+    font-size: 18px;
+    padding-left: 0;cursor: pointer;padding-bottom: 4px;border-bottom: 1px solid #CCC;border-radius: 0px;margin-bottom: 5px;
+}.tags.list-group-item > .badge,#list .list-group-item > .badge {
+       background-color: #CCC;color: #637b82;
+    border-radius: 0;
+    font-size: 14px;
+    margin: 4px -15px 0 3px;
+    padding: 6px 10px;
+}.toolbar span {
+    color: #f37a5d;
+    margin: 0 6px;
+}.toolbar span.point.badge {
+   background-color: #f37a5d;
+    border-radius: 0;
+    color: #fff;
+    float: right;
+    font-size: 14px;
+    margin-right: -15px;
+    margin-top: -7px;
+    padding: 10px 12px;
+}
+.list.list-group-item.list-design{ 
+  background: none repeat scroll 0 0 #f6d1c8;
+    border: 1px solid #f37a5d !important;
+    border-radius: 0;
+    color: #2a3133 !important;
+    font-family: 'source_sans_proregular' !important;
+    font-size: 14px !important;
+    padding-bottom: 6px !important;
+    padding-left: 15px !important;
+    padding-top: 6px;
+    }
+    .footer .container {
+    padding: 0;
+}
+.list-group li {
+    margin-bottom: 20px !important;
+}
+.list-group{margin-bottom: 0px;}
+.timer-wrapper {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}.btn.btn-default.btn-danger.b_fix.stop_fix {
+    height: 36px;
+    width: 100%;
+}
+
+/*Css media Queires*/
+@media all and (max-width : 992px) {
+    
+#sidebar a{padding-left: 25px;}
+#sidebar a:hover{padding-left: 28px;}
+
+}
+
+@media all and (max-width : 767px) {
+
+    /*  NEW CSS MEDIA */
+    .navbar-fixed-top .nav.navbar-nav.navbar-right > li {display: inline-block !important;width: auto !important;}
+    .nav.navbar-nav.navbar-right {text-align: right;}
+    .logout-text,#username{display: none;}
+    .nav.navbar-nav.navbar-right,img.user_img {margin: 0;}
+    .logout {background:#fff;color: #4890a8;display: inline;padding: 0;}
+    #headerNav .nav.navbar-nav.navbar-right li a{padding: 0 4px;}
+    .navbar-toggle.btn.btn-default {border-radius: 0;background-color: #f37a5d;border-color: #f37a5d;width: auto;}
+    .navbar-default .navbar-toggle .icon-bar{background-color: #fff;}
+    #headerNav .navbar li:last-child{margin-right:0px;}
+    /*End NEw*/
+    .hiddenclass{
+        display:inline;		
+    }
+    .ui-datepicker {
+        margin: 5px 0px;
+    }
+    #sidebar a{
+        background:none;
+    }
+    #sidebar a:hover{
+        padding-left:15px;
+    }.toolbar {
+    display: block;
+    float: none;
+}
+}
+@media all and (max-width : 420px) {
+    .ui-datepicker {
+        width:100%;
+        margin: 5px 0px;
+    }
+    .ui-datepicker td span, .ui-datepicker td a {
+        width:100%;
+    }
+    .ui-datepicker-calendar td:first-child .ui-state-active {
+        width: 100%;
+    }
+    .ui-datepicker-calendar td:last-child .ui-state-active {
+        width: 100%;
+    }
+    .ui-datepicker-calendar tr:last-child .ui-state-active {
+        height:100%;
+    }
+}
+@media all and (max-width : 479px) {
+    #time{font-size: 12px;}
+}
+
+/* Additions by Akhilesh - Timer */
+.pause_btn{
+	padding:1em;
+	float:left;
+	background:#f37a5d;
+	margin:0.5em 1.925em 0.5em 1.925em;
+	border: 1px solid #f37a5d;
+	color:#fff;
+}
+.time_div {
+    clear: both;
+    color: #2a3133;
+    font-size: 30px;
+    height: auto;
+    line-height: 18px;
+    margin-bottom: 10px;
+    padding: 50px 10px !important;
+	background:#fcfcfc;
+	border:none;
+	color:#000;
+	position:relative;
+	border:1px solid #eee;
+	overflow:hidden;
+}
+.time_div span{background:#fcfcfc;
+clear: both;
+	border:none;
+	color:#000;
+	 font-size: 30px;
+    height: auto;
+    line-height: 18px;
+    margin-bottom: 10px;
+    padding: 25px 10px !important;
+	}
+#timeelapsed{
+	position:absolute;bottom:-10px;height:0;line-height:0;font-size:18px;left:0;margin:auto;padding:0;color:#000;text-align:center;
+}
+
+.btn.btn-default.b_fix.icon-stopwatch,.btn.btn-default.b_fix.icon-clock{
+   background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    height: 40px;
+    margin-bottom: 10px;
+    width: 50%;
+}

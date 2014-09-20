@@ -1,0 +1,6 @@
+[21-Feb-2014 14:53:10] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/borebah6/public_html/others/volunteer/tasks/php/forgot.php on line 7
+[21-Feb-2014 14:54:11] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/borebah6/public_html/others/volunteer/tasks/php/forgot.php on line 8
+[21-Feb-2014 14:55:14] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/borebah6/public_html/others/volunteer/tasks/php/forgot.php on line 8
+[21-Feb-2014 14:56:14] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/borebah6/public_html/others/volunteer/tasks/php/forgot.php on line 7
+[21-Feb-2014 14:56:59] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/borebah6/public_html/others/volunteer/tasks/php/forgot.php on line 8
+[02-Mar-2014 16:51:45] PHP Parse error:  syntax error, unexpected '[' in /home/borebah6/public_html/others/volunteer/tasks/php/forgot.php on line 29

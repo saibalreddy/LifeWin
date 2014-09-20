@@ -1,0 +1,8 @@
+[30-Jun-2014 18:40:53 Etc/GMT] PHP Parse error:  syntax error, unexpected '-', expecting ',' or ';' in /home/lifewafb/public_html/gplus/signin.php on line 46
+[30-Jun-2014 18:40:57 Etc/GMT] PHP Parse error:  syntax error, unexpected '-', expecting ',' or ';' in /home/lifewafb/public_html/gplus/signin.php on line 46
+[30-Jun-2014 18:41:28 Etc/GMT] PHP Parse error:  syntax error, unexpected '-', expecting ',' or ';' in /home/lifewafb/public_html/gplus/signin.php on line 46
+[30-Jun-2014 18:41:42 Etc/GMT] PHP Parse error:  syntax error, unexpected 'ePuSQM06A1bHl3ZlNOtqvuf' (T_STRING), expecting ',' or ';' in /home/lifewafb/public_html/gplus/signin.php on line 51
+[30-Jun-2014 18:42:00 Etc/GMT] PHP Warning:  require_once(/home/lifewafb/public_html/gplus/vendor/autoload.php): failed to open stream: No such file or directory in /home/lifewafb/public_html/gplus/signin.php on line 31
+[30-Jun-2014 18:42:00 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required '/home/lifewafb/public_html/gplus/vendor/autoload.php' (include_path='.:/usr/local/altphp54/lib/php:/home/lifewafb/public_html/gplus/vendor/google/apiclient/src') in /home/lifewafb/public_html/gplus/signin.php on line 31
+[30-Jun-2014 19:10:16 Etc/GMT] PHP Warning:  require_once(/home/lifewafb/public_html/gplus/vendor/autoload.php): failed to open stream: No such file or directory in /home/lifewafb/public_html/gplus/signin.php on line 31
+[30-Jun-2014 19:10:16 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required '/home/lifewafb/public_html/gplus/vendor/autoload.php' (include_path='.:/usr/local/altphp54/lib/php:/home/lifewafb/public_html/gplus/vendor/google/apiclient/src') in /home/lifewafb/public_html/gplus/signin.php on line 31

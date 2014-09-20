@@ -1,0 +1,202 @@
+.points{
+
+    position: relative;
+
+    float: right;
+
+}
+
+
+
+.navbar-toggle {
+
+    /*Override the default hidden property.
+    
+    To display the button at all times and not just when the screen size is small */
+
+    display: block !important;
+
+    /*Override the default float:right property.
+    
+    To display the button at the left side */
+
+    float: left !important;
+
+}
+
+
+
+
+
+
+
+/*From: http://bootply.com/88026*/
+
+
+
+body {
+
+    padding-top:70px;  
+
+}
+
+.text-center {
+
+    padding-top: 20px;
+
+}
+
+.col-xs-12 {
+
+    background-color: #fff;
+
+}
+
+#sidebar {
+
+    background:#2a3133;
+    height:100%; /*Because the sidebar's can be bigger than the page's whole content*/
+    min-height:100vh;
+    padding-right: 0;
+    /*padding-top: 20px;*/
+
+}
+#sidebar a:active {
+background: #4890a8;
+border-radius: 0;
+color: #fff;
+padding-left: 22px;
+}
+#sidebar a:focus {
+background: #4890a8;
+border-radius: 0;
+color: #fff;
+padding-left: 22px;
+}
+
+#sidebar .nav {
+
+    width:100%;
+
+}
+
+#sidebar li {
+
+    border:0 #f2f2f2 solid;
+
+
+}
+
+
+
+/* collapsed sidebar styles */
+
+@media screen and (max-width: 767px) {
+
+    .row-offcanvas {
+
+        position: relative;
+
+        -webkit-transition: all 0.25s ease-out;
+
+        -moz-transition: all 0.25s ease-out;
+
+        transition: all 0.25s ease-out;
+
+    }
+
+    .row-offcanvas-right
+
+    .sidebar-offcanvas {
+
+        right: -48.6%;
+
+    }
+
+
+
+    .row-offcanvas-left
+
+    .sidebar-offcanvas {
+
+        left: -48.6%;
+
+    }
+
+    .row-offcanvas-right.active {
+
+        right: 48.6%;
+
+    }
+
+    .row-offcanvas-left.active {
+
+        left: 48.6%;
+
+    }
+
+    .sidebar-offcanvas {
+
+        position: absolute;
+
+        top: 0;
+
+        width: 48.6%;
+
+    }
+
+    #sidebar {
+
+
+
+    }
+
+    #sidebar .nav > li {
+
+        color: #424242;
+
+    }
+
+    #sidebar .nav > li:first-child {
+
+        border-top:0;
+
+    }
+
+    #sidebar .nav > li > a {
+
+        padding-left: 20px;
+
+    }
+
+    #sidebar .nav>li>a>img {
+
+        max-width: 14px;
+
+    }
+
+    #sidebar .nav>li>a:hover, #sidebar .nav>li>a:focus {
+
+        text-decoration: none;
+
+        
+
+    }
+
+    #sidebar .nav .caret {
+
+        border-top-color: #fff;
+
+        border-bottom-color: #fff;
+
+    }
+
+    #sidebar .nav a:hover .caret{
+
+        border-top-color: #fff;
+
+        border-bottom-color: #fff;
+
+    }
+
+}

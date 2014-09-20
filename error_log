@@ -1,0 +1,610 @@
+[29-Jun-2014 10:38:51 Etc/GMT] PHP Parse error:  syntax error, unexpected ':' in /home/lifewafb/public_html/app.php on line 16
+[29-Jun-2014 10:40:08 Etc/GMT] PHP Parse error:  syntax error, unexpected ':' in /home/lifewafb/public_html/app.php on line 16
+[29-Jun-2014 10:42:39 Etc/GMT] PHP Warning:  fopen(https://graph.facebook.com/oauth/access_token?client_id=834481703238074&amp;redirect_uri=http://lifewin.co/app.php&amp;client_secret=347633e603fd132fd38abaca14034e01&amp;code=$code): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/lifewafb/public_html/app.php on line 16
+[29-Jun-2014 10:42:39 Etc/GMT] PHP Warning:  stream_get_contents() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/app.php on line 17
+[29-Jun-2014 10:44:00 Etc/GMT] PHP Warning:  fopen(https://graph.facebook.com/oauth/access_token?client_id=834481703238074&amp;redirect_uri=http://lifewin.co/app.php&amp;client_secret=347633e603fd132fd38abaca14034e01&amp;code=$code): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/lifewafb/public_html/app.php on line 16
+[29-Jun-2014 10:44:00 Etc/GMT] PHP Warning:  stream_get_contents() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/app.php on line 18
+[29-Jun-2014 10:44:16 Etc/GMT] PHP Warning:  fopen(https://graph.facebook.com/oauth/access_token?client_id=834481703238074&amp;redirect_uri=http://lifewin.co/app.php&amp;client_secret=347633e603fd132fd38abaca14034e01&amp;code=$code): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/lifewafb/public_html/app.php on line 16
+[29-Jun-2014 10:44:16 Etc/GMT] PHP Warning:  stream_get_contents() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/app.php on line 18
+[29-Jun-2014 10:46:59 Etc/GMT] PHP Warning:  readfile(https://graph.facebook.com/oauth/access_token?client_id=834481703238074&amp;redirect_uri=http://lifewin.co/app.php&amp;client_secret=347633e603fd132fd38abaca14034e01&amp;code=): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/lifewafb/public_html/app.php on line 16
+[29-Jun-2014 10:50:19 Etc/GMT] PHP Warning:  readfile(https://graph.facebook.com/oauth/access_token?client_id=834481703238074&amp;redirect_uri=http://lifewin.co/app.php&amp;client_secret=347633e603fd132fd38abaca14034e01&amp;code=): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/lifewafb/public_html/app.php on line 18
+[29-Jun-2014 10:50:41 Etc/GMT] PHP Warning:  readfile(https://graph.facebook.com/oauth/access_token?client_id=834481703238074&amp;redirect_uri=http://lifewin.co/app.php&amp;client_secret=347633e603fd132fd38abaca14034e01&amp;code=AQBYFDixDbFe3noFG2RguIx68iZ7M152Wudsyf2ovUHAXsJDgLB6i6DrUHQWn3Pv8j6PnDnop_OIud5Vc8bSHpqFt3NPld8fxSooH-F_0KtypLN1WjZVlukVu93JYZI1-2nTkcKUbbL78wR6QvmfmxZ5DJhThpL12blG6YyNmQERS5CM86mUe0ioRHQUhHP10T4ywojI5zNxBHPn1D91Pywvpwv2IyYOcgeLgL4eeCaRZC1avsLch07iTCSsWx2nDCpPMOVAqFh9pAIMz8e5BSL4gOsmQAYUd_PIJvro6F3BJj_zKOLPCl4l97azvXSTm2I): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/lifewafb/public_html/app.php on line 18
+[29-Jun-2014 10:51:32 Etc/GMT] PHP Warning:  readfile(https://graph.facebook.com/oauth/access_token?client_id=834481703238074&amp;redirect_uri=http://lifewin.co/app.php&amp;client_secret=347633e603fd132fd38abaca14034e01&amp;code=AQBhUvOWDIvM_8HAlq40aiAfpvp5Zn9Fxq4BNSbpxEvwfAePtzmqd5Da2GWjynsxnehtyFqa8wJzEmUj5KEqL3aCSZjzUodjY-HPWF4CBPNWAM7yq_2UOB82g7D4b9fyNOwF1IKGb9i2wLRfX5HYzFdT2VyxRDKFepYWFml9N87gt_lkWNU2l_Pdha7vjO1o0r3i5TZcUS4e_gTu3uvyO6vkgnqmmFdc1Pm3nMqNiNTW7FVWaipdQvmmttoinDa0NcgkMQuNXp1Ssipa7-ZRzA4ZuYn0QKsi5w4pUIxy1njTasBq_M3PY0KXChG-mf7F1uI): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/lifewafb/public_html/app.php on line 18
+[29-Jun-2014 10:56:46 Etc/GMT] PHP Warning:  readfile(https://graph.facebook.com/oauth/access_token?client_id=834481703238074&amp;redirect_uri=http://lifewin.co/app.php&amp;client_secret=347633e603fd132fd38abaca14034e01&amp;code=AQBV7beXonKEQ8pXr5vo8LDpnc3JxxF8nso3m1rKnahNa2Z4QsUVaugexChmStA0MujrsnNNc1l0--OxkeFRjK6s2l8Za8sGOxwOQl__I6nrqkJ5yAbgsjf45ifTks1RZmb5XTPyiY0dJrEdMJlBktBIs9DlE_JoUfh34vqQpkFPohfIhxQz_2wzMRo6gn1h8H3yo_rWrizJ6GMmCYbQ8wP3EdZIrCEjGIYJaN9z9U1dWBkZrhH5c1ZLLrURezddgofH0L8v2jiudBXKa5n1v0gDUh9TGCJX53E4S5-thEeV7Fy45t3nHaIU8C8o6Bro2OA): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/lifewafb/public_html/app.php on line 18
+[29-Jun-2014 10:57:20 Etc/GMT] PHP Warning:  readfile(https://graph.facebook.com/oauth/access_token?client_id=834481703238074&amp;redirect_uri=http://lifewin.co/app.php&amp;client_secret=347633e603fd132fd38abaca14034e01&amp;code=AQDilQo2JOleWhSR8LR6dA5gJDGjTvcUio7E894cuKBwTNBtPP6gKINJKKCwfHYrMj0edjBeia_fhiZIc1iomACWPTTTaMwJayKe8EsfyInCL5_CXHZWUeZ_pYoOK6GeOxggvsNMquSi91r6AgbeXTHgrSCH5ioT9_jgulUlVb5ueCoibeTupJJnbH15QXTPyniO9qpgLWrEdeLt0JoLV5qVjfL7CmAGK5b1KJNsB4Fz6Dto1ZAc-D-hdz0FELvXF8WmnppDKamb7ZLi5zO4aTqLTVbkHXGuLQxXiYQEAJR6QJWSUWYleTqAcYWYBuKe1LA): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/lifewafb/public_html/app.php on line 18
+[29-Jun-2014 11:01:06 Etc/GMT] PHP Warning:  readfile(https://graph.facebook.com/oauth/access_token?client_id=834481703238074&amp;redirect_uri=http://lifewin.co/app.php&amp;client_secret=347633e603fd132fd38abaca14034e01&amp;code=AQDmp3DzGkTlTI0Bb_LL460hppGwVrsfo8xEolzsBszGdSzfBHtHTIrjciEeviGMd1y4IR8gapgO73iJAxUa7HRUXhsGCx9N3OicQCcDfCoB2I4qF2xjrM8HimU8AnHlag1uSh6b9EFV-O0E3MjajjKJNY4L1b_1el2iH8V5W9xXXlIRoJGddIcesHpC7NE6_zwbkKcNv1PJzAIVvjbi56KywgsIM4qghM-HsHkpw4ksaAKZAK7dvZ8VRLxnvY0CEnWuJ0Xz0DN3UWtqy-FvqMIn0dNGHQZTo6zGHEs7bdnEIA5mkFDRvoAUr-Fkz1Rfw1A): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/lifewafb/public_html/app.php on line 18
+[29-Jun-2014 11:03:35 Etc/GMT] PHP Fatal error:  Call to undefined function string() in /home/lifewafb/public_html/app.php on line 19
+[29-Jun-2014 11:06:39 Etc/GMT] PHP Fatal error:  Call to a member function getAccessToken() on a non-object in /home/lifewafb/public_html/app.php on line 17
+[29-Jun-2014 12:21:39 Etc/GMT] PHP Fatal error:  Call to a member function getAccessToken() on a non-object in /home/lifewafb/public_html/app.php on line 17
+[29-Jun-2014 14:27:29 Etc/GMT] PHP Warning:  readfile(https://graph.facebook.com/oauth/access_token?client_id=834481703238074&amp;redirect_uri=http://lifewin.co/app.php&amp;client_secret=347633e603fd132fd38abaca14034e01&amp;code=AQCkWPP3ot5l1TWVAPwg6FMIC26updZE3GyOl7KuA3PlnNrMCcWAIyybL6QZ5uiPDgP1hE7au1hjRO9rzO3pp5gU3Bvu0UgNb4P6zPNiRywnArlc-UB7NcOwuHROJbC8d6CVhqmDD13dTH7nxgsLtq-V3A9ELSyf0Z_5cbjyWj9aUOc1EoW6uUjiawXIByysdTDnKVc40BbGs_lwfqAfis_rB7IKNCB2UbcW-idFC6W3APOYorx8p0shV51COwyZDyAWIjbZaNZRPx1DvZfMwbQznKVKquV32M9EGSrcHvRDryBWaxOupUW0DoeFaI9uarM): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/lifewafb/public_html/app.php on line 18
+[29-Jun-2014 14:33:09 Etc/GMT] PHP Warning:  readfile(https://graph.facebook.com/oauth/access_token?client_id=834481703238074&amp;redirect_uri=http://lifewin.co/app.php&amp;client_secret=347633e603fd132fd38abaca14034e01&amp;code=AQCE3mm4VUyDRQDQL8Zh84BFyhXFoVJoNg4z8af25DJPYR1kOgOwT--V0ZQUdkDAleNBJhfzs2_A6cljxg-KqUIfsZxR-L575s8AuAj08yddKs414ObB2R-7czNR4OFBd90qmY5ngmMD2VDVP0lhAxN0y_bVxmrA0Ubhft3qQbG0BRSRIdft159OY20uWZFOFsDmwdCmvwJVL_uPBarVTcxFt_SViIO4CLj3R8f4kSDAp2JHQiS02H5iB_DMVMJrW3L6nnsyu1PWsIWi_OfkMXpJSfBntqOBui_mdXi-O0MDDRe67FhhYiY7pNf_rqJ8Ksw): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/lifewafb/public_html/app.php on line 18
+[29-Jun-2014 14:34:16 Etc/GMT] PHP Warning:  readfile(https://graph.facebook.com/oauth/access_token?client_id=834481703238074&amp;redirect_uri=http://lifewin.co/app.php&amp;client_secret=347633e603fd132fd38abaca14034e01&amp;code=AQCOUZfNU1iDKHJTpr-fBXO1Dx_AyTRTsw6lIBEutpbRkz6Aueg2lObHcFLcpP3ZpqxyPExzreRSKatvMaNrMwm0YfgBrwqfUvpWj8FUuj48k0PrbHvXbZoHLI1bgnEgkCA3dXJomSN8DPuEq_zTg8bCw83fdwqH8UHSv7bCMF2qQreR6aaI9S4a2PxB0S7YXsBRujSADDXKvAtzybzREIXpM-JrK8EQZZOkWjKUg3aAIKUfjPJZPlgY6b0xi_Yt7LccvL__qrWNZG5J0J8woqwKXIHJLoGxnMPp5uJTclyJrbK5J7NgWy0THYwibNfJ5lQ): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/lifewafb/public_html/app.php on line 18
+[31-Jul-2014 10:26:10 Etc/GMT] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lifewafb/public_html/app.php:2) in /home/lifewafb/public_html/src/facebook.php on line 49
+[31-Jul-2014 10:26:14 Etc/GMT] PHP Fatal error:  Call to undefined function checkuser() in /home/lifewafb/public_html/fbconfig.php on line 24
+[31-Jul-2014 10:27:15 Etc/GMT] PHP Warning:  require(function.php): failed to open stream: No such file or directory in /home/lifewafb/public_html/app.php on line 3
+[31-Jul-2014 10:27:15 Etc/GMT] PHP Warning:  require(function.php): failed to open stream: No such file or directory in /home/lifewafb/public_html/app.php on line 3
+[31-Jul-2014 10:27:15 Etc/GMT] PHP Fatal error:  require(): Failed opening required 'function.php' (include_path='.:/usr/local/altphp54/lib/php') in /home/lifewafb/public_html/app.php on line 3
+[31-Jul-2014 10:27:58 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:27:58 Etc/GMT] CSRF state token does not match one provided.
+[31-Jul-2014 10:29:02 Etc/GMT] CSRF state token does not match one provided.
+[31-Jul-2014 10:29:03 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:29:03 Etc/GMT] CSRF state token does not match one provided.
+[31-Jul-2014 10:29:27 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:29:27 Etc/GMT] CSRF state token does not match one provided.
+[31-Jul-2014 10:55:01 Etc/GMT] CSRF state token does not match one provided.
+[31-Jul-2014 10:55:02 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:55:02 Etc/GMT] CSRF state token does not match one provided.
+[31-Jul-2014 10:55:42 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:55:43 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:55:45 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:55:47 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:55:48 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:55:49 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:55:51 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:55:52 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:55:53 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:55:55 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:55:56 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:55:58 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:55:59 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:56:01 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:56:02 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:56:03 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:56:05 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:56:07 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:56:08 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:56:10 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:56:12 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:56:13 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 10:57:21 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lifewafb/public_html/functions.php on line 5
+[31-Jul-2014 13:27:44 Etc/GMT] PHP Warning:  require(openid.php): failed to open stream: No such file or directory in /home/lifewafb/public_html/gmail_login.php on line 3
+[31-Jul-2014 13:27:44 Etc/GMT] PHP Warning:  require(openid.php): failed to open stream: No such file or directory in /home/lifewafb/public_html/gmail_login.php on line 3
+[31-Jul-2014 13:27:44 Etc/GMT] PHP Fatal error:  require(): Failed opening required 'openid.php' (include_path='.:/usr/local/altphp54/lib/php') in /home/lifewafb/public_html/gmail_login.php on line 3
+[31-Jul-2014 14:42:20 Etc/GMT] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lifewafb/public_html/index.php:16) in /home/lifewafb/public_html/authentication.php on line 2
+[31-Jul-2014 14:42:41 Etc/GMT] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lifewafb/public_html/index.php:16) in /home/lifewafb/public_html/authentication.php on line 2
+[31-Jul-2014 14:42:45 Etc/GMT] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lifewafb/public_html/index.php:16) in /home/lifewafb/public_html/authentication.php on line 2
+[31-Jul-2014 14:42:45 Etc/GMT] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lifewafb/public_html/index.php:16) in /home/lifewafb/public_html/authentication.php on line 2
+[31-Jul-2014 14:52:21 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lifewafb/public_html/userLogin.php:4) in /home/lifewafb/public_html/userLogin.php on line 37
+[31-Jul-2014 14:53:21 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lifewafb/public_html/userLogin.php:4) in /home/lifewafb/public_html/userLogin.php on line 37
+[01-Aug-2014 14:23:35 Etc/GMT] CSRF state token does not match one provided.
+[01-Aug-2014 18:27:29 Etc/GMT] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /home/lifewafb/public_html/verify.php on line 17
+[01-Aug-2014 19:02:50 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lifewafb/public_html/authentication.php:3) in /home/lifewafb/public_html/authentication.php on line 8
+[02-Aug-2014 06:54:44 Etc/GMT] CSRF state token does not match one provided.
+[04-Aug-2014 07:24:35 Etc/GMT] CSRF state token does not match one provided.
+[04-Aug-2014 07:25:21 Etc/GMT] CSRF state token does not match one provided.
+[07-Aug-2014 03:00:31 Etc/GMT] CSRF state token does not match one provided.
+[07-Aug-2014 06:50:04 Etc/GMT] CSRF state token does not match one provided.
+[07-Aug-2014 06:52:48 Etc/GMT] CSRF state token does not match one provided.
+[07-Aug-2014 06:53:09 Etc/GMT] CSRF state token does not match one provided.
+[07-Aug-2014 07:02:30 Etc/GMT] CSRF state token does not match one provided.
+[07-Aug-2014 13:49:03 Etc/GMT] CSRF state token does not match one provided.
+[08-Aug-2014 05:30:07 Etc/GMT] CSRF state token does not match one provided.
+[08-Aug-2014 05:34:20 Etc/GMT] CSRF state token does not match one provided.
+[08-Aug-2014 05:40:43 Etc/GMT] CSRF state token does not match one provided.
+[08-Aug-2014 18:00:10 Etc/GMT] CSRF state token does not match one provided.
+[10-Aug-2014 18:02:31 Etc/GMT] CSRF state token does not match one provided.
+[10-Aug-2014 18:02:43 Etc/GMT] CSRF state token does not match one provided.
+[11-Aug-2014 09:56:53 Etc/GMT] CSRF state token does not match one provided.
+[11-Aug-2014 09:58:03 Etc/GMT] CSRF state token does not match one provided.
+[12-Aug-2014 05:44:03 Etc/GMT] CSRF state token does not match one provided.
+[12-Aug-2014 05:45:05 Etc/GMT] CSRF state token does not match one provided.
+[12-Aug-2014 18:14:44 Etc/GMT] CSRF state token does not match one provided.
+[12-Aug-2014 18:15:44 Etc/GMT] CSRF state token does not match one provided.
+[12-Aug-2014 18:20:47 Etc/GMT] CSRF state token does not match one provided.
+[12-Aug-2014 18:30:06 Etc/GMT] CSRF state token does not match one provided.
+[12-Aug-2014 18:31:46 Etc/GMT] CSRF state token does not match one provided.
+[12-Aug-2014 18:31:59 Etc/GMT] CSRF state token does not match one provided.
+[12-Aug-2014 18:32:43 Etc/GMT] CSRF state token does not match one provided.
+[12-Aug-2014 18:33:51 Etc/GMT] CSRF state token does not match one provided.
+[12-Aug-2014 18:35:22 Etc/GMT] CSRF state token does not match one provided.
+[12-Aug-2014 18:44:30 Etc/GMT] CSRF state token does not match one provided.
+[12-Aug-2014 18:44:49 Etc/GMT] CSRF state token does not match one provided.
+[13-Aug-2014 02:30:53 Etc/GMT] CSRF state token does not match one provided.
+[13-Aug-2014 14:20:27 Etc/GMT] CSRF state token does not match one provided.
+[13-Aug-2014 14:20:50 Etc/GMT] CSRF state token does not match one provided.
+[14-Aug-2014 13:19:26 Etc/GMT] CSRF state token does not match one provided.
+[14-Aug-2014 14:14:12 Etc/GMT] CSRF state token does not match one provided.
+[15-Aug-2014 03:59:13 Etc/GMT] CSRF state token does not match one provided.
+[15-Aug-2014 06:45:16 Etc/GMT] CSRF state token does not match one provided.
+[15-Aug-2014 07:03:40 Etc/GMT] CSRF state token does not match one provided.
+[15-Aug-2014 14:41:58 Etc/GMT] CSRF state token does not match one provided.
+[15-Aug-2014 14:42:06 Etc/GMT] CSRF state token does not match one provided.
+[18-Aug-2014 11:09:16 Etc/GMT] CSRF state token does not match one provided.
+[18-Aug-2014 11:16:27 Etc/GMT] CSRF state token does not match one provided.
+[18-Aug-2014 11:17:55 Etc/GMT] CSRF state token does not match one provided.
+[18-Aug-2014 11:21:28 Etc/GMT] CSRF state token does not match one provided.
+[18-Aug-2014 11:34:05 Etc/GMT] CSRF state token does not match one provided.
+[18-Aug-2014 11:35:34 Etc/GMT] CSRF state token does not match one provided.
+[18-Aug-2014 11:41:50 Etc/GMT] CSRF state token does not match one provided.
+[18-Aug-2014 11:42:56 Etc/GMT] CSRF state token does not match one provided.
+[18-Aug-2014 11:43:23 Etc/GMT] CSRF state token does not match one provided.
+[19-Aug-2014 17:09:13 Etc/GMT] CSRF state token does not match one provided.
+[19-Aug-2014 18:44:43 Etc/GMT] CSRF state token does not match one provided.
+[22-Aug-2014 06:41:12 Etc/GMT] CSRF state token does not match one provided.
+[22-Aug-2014 11:03:29 Etc/GMT] CSRF state token does not match one provided.
+[22-Aug-2014 11:04:27 Etc/GMT] CSRF state token does not match one provided.
+[23-Aug-2014 13:59:26 Etc/GMT] CSRF state token does not match one provided.
+[23-Aug-2014 14:02:23 Etc/GMT] CSRF state token does not match one provided.
+[23-Aug-2014 14:19:11 Etc/GMT] CSRF state token does not match one provided.
+[25-Aug-2014 22:02:32 Etc/GMT] CSRF state token does not match one provided.
+[26-Aug-2014 05:00:37 Etc/GMT] CSRF state token does not match one provided.
+[27-Aug-2014 14:44:07 Etc/GMT] CSRF state token does not match one provided.
+[27-Aug-2014 14:46:19 Etc/GMT] CSRF state token does not match one provided.
+[29-Aug-2014 05:08:45 Etc/GMT] CSRF state token does not match one provided.
+[29-Aug-2014 05:12:10 Etc/GMT] CSRF state token does not match one provided.
+[29-Aug-2014 11:11:00 Etc/GMT] CSRF state token does not match one provided.
+[29-Aug-2014 11:11:33 Etc/GMT] CSRF state token does not match one provided.
+[29-Aug-2014 13:54:07 Etc/GMT] CSRF state token does not match one provided.
+[31-Aug-2014 12:33:19 Etc/GMT] CSRF state token does not match one provided.
+[31-Aug-2014 12:33:39 Etc/GMT] CSRF state token does not match one provided.
+[01-Sep-2014 13:53:17 Etc/GMT] CSRF state token does not match one provided.
+[01-Sep-2014 13:53:43 Etc/GMT] CSRF state token does not match one provided.
+[01-Sep-2014 13:54:43 Etc/GMT] CSRF state token does not match one provided.
+[01-Sep-2014 13:57:09 Etc/GMT] CSRF state token does not match one provided.
+[01-Sep-2014 13:57:19 Etc/GMT] CSRF state token does not match one provided.
+[02-Sep-2014 06:46:25 Etc/GMT] CSRF state token does not match one provided.
+[02-Sep-2014 06:46:38 Etc/GMT] CSRF state token does not match one provided.
+[02-Sep-2014 08:38:09 Etc/GMT] CSRF state token does not match one provided.
+[02-Sep-2014 08:38:18 Etc/GMT] CSRF state token does not match one provided.
+[02-Sep-2014 08:45:26 Etc/GMT] CSRF state token does not match one provided.
+[03-Sep-2014 11:58:21 Etc/GMT] CSRF state token does not match one provided.
+[03-Sep-2014 11:58:40 Etc/GMT] CSRF state token does not match one provided.
+[05-Sep-2014 08:54:27 Etc/GMT] CSRF state token does not match one provided.
+[05-Sep-2014 13:46:37 Etc/GMT] CSRF state token does not match one provided.
+[05-Sep-2014 13:57:58 Etc/GMT] CSRF state token does not match one provided.
+[05-Sep-2014 13:58:26 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 00:32:36 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 00:32:55 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 01:43:10 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 01:44:57 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 11:04:00 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 11:04:14 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 11:09:33 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 11:10:38 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 14:16:49 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 14:46:01 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 14:46:16 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 14:46:45 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 15:50:11 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 15:54:25 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 18:26:29 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 19:34:02 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 19:42:46 Etc/GMT] CSRF state token does not match one provided.
+[06-Sep-2014 19:58:20 Etc/GMT] CSRF state token does not match one provided.
+[07-Sep-2014 05:08:49 Etc/GMT] CSRF state token does not match one provided.
+[07-Sep-2014 05:09:00 Etc/GMT] CSRF state token does not match one provided.
+[07-Sep-2014 05:35:02 Etc/GMT] CSRF state token does not match one provided.
+[07-Sep-2014 05:35:32 Etc/GMT] CSRF state token does not match one provided.
+[07-Sep-2014 05:42:55 Etc/GMT] CSRF state token does not match one provided.
+[07-Sep-2014 10:48:05 Etc/GMT] CSRF state token does not match one provided.
+[07-Sep-2014 13:07:13 Etc/GMT] CSRF state token does not match one provided.
+[07-Sep-2014 13:07:25 Etc/GMT] CSRF state token does not match one provided.
+[07-Sep-2014 13:27:22 Etc/GMT] CSRF state token does not match one provided.
+[07-Sep-2014 13:27:32 Etc/GMT] CSRF state token does not match one provided.
+[07-Sep-2014 13:27:34 Etc/GMT] CSRF state token does not match one provided.
+[07-Sep-2014 16:26:18 Etc/GMT] CSRF state token does not match one provided.
+[07-Sep-2014 16:26:59 Etc/GMT] CSRF state token does not match one provided.
+[07-Sep-2014 19:12:33 Etc/GMT] CSRF state token does not match one provided.
+[07-Sep-2014 19:12:53 Etc/GMT] CSRF state token does not match one provided.
+[07-Sep-2014 22:16:28 Etc/GMT] CSRF state token does not match one provided.
+[08-Sep-2014 00:30:37 Etc/GMT] CSRF state token does not match one provided.
+[08-Sep-2014 00:30:49 Etc/GMT] CSRF state token does not match one provided.
+[08-Sep-2014 04:57:57 Etc/GMT] CSRF state token does not match one provided.
+[08-Sep-2014 04:58:08 Etc/GMT] CSRF state token does not match one provided.
+[08-Sep-2014 10:31:38 Etc/GMT] CSRF state token does not match one provided.
+[08-Sep-2014 10:35:30 Etc/GMT] CSRF state token does not match one provided.
+[08-Sep-2014 15:11:34 Etc/GMT] CSRF state token does not match one provided.
+[08-Sep-2014 15:11:47 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 16:18:26 Etc/GMT] PHP Warning:  mysql_connect(): Access denied for user 'lifewafb'@'localhost' (using password: YES) in /home/lifewafb/public_html/dbconfig.php on line 6
+[10-Sep-2014 16:40:25 Etc/GMT] PHP Warning:  mysql_connect(): Access denied for user 'lifewafb'@'localhost' (using password: YES) in /home/lifewafb/public_html/dbconfig.php on line 6
+[10-Sep-2014 16:41:41 Etc/GMT] PHP Warning:  mysql_connect(): Access denied for user 'lifewafb'@'localhost' (using password: YES) in /home/lifewafb/public_html/dbconfig.php on line 6
+[10-Sep-2014 16:42:38 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 16:45:49 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 17:15:11 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 17:36:28 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 17:37:00 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 17:38:24 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 17:38:36 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 17:45:12 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 17:46:31 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 17:52:46 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 17:54:20 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 17:57:29 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/lifewafb/public_html/fblogin.php on line 8
+[10-Sep-2014 17:58:00 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 17:59:22 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 18:03:31 Etc/GMT] PHP Warning:  Division by zero in /home/lifewafb/public_html/fblogin.php on line 8
+[10-Sep-2014 18:03:33 Etc/GMT] PHP Warning:  Division by zero in /home/lifewafb/public_html/fblogin.php on line 8
+[10-Sep-2014 18:03:35 Etc/GMT] PHP Warning:  Division by zero in /home/lifewafb/public_html/fblogin.php on line 8
+[10-Sep-2014 18:04:12 Etc/GMT] PHP Warning:  Division by zero in /home/lifewafb/public_html/fblogin.php on line 8
+[10-Sep-2014 18:04:31 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 18:04:46 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 18:05:01 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 18:05:30 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 18:10:49 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 18:11:07 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 18:14:43 Etc/GMT] PHP Fatal error:  Call to undefined method Facebook::getSession() in /home/lifewafb/public_html/fbconfig.php on line 10
+[10-Sep-2014 18:22:28 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 18:22:39 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 18:23:09 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 18:27:06 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 19:19:25 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 19:19:37 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 19:20:57 Etc/GMT] PHP Parse error:  syntax error, unexpected ':' in /home/lifewafb/public_html/fbconfig.php on line 45
+[10-Sep-2014 19:21:28 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 19:49:51 Etc/GMT] PHP Parse error:  syntax error, unexpected '=' in /home/lifewafb/public_html/fblogin.php on line 6
+[10-Sep-2014 19:50:13 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 19:57:49 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:06:50 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:07:00 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:11:03 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:11:13 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:12:07 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:12:24 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:12:52 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:13:01 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:24:01 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:25:18 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:25:31 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:26:12 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:26:23 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:29:38 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:30:15 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:30:27 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:32:00 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:41:35 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:45:21 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:46:31 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:46:32 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:47:54 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:53:45 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:53:50 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:53:51 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:54:16 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:54:17 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:56:35 Etc/GMT] CSRF state token does not match one provided.
+[10-Sep-2014 20:59:34 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 00:07:21 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 00:07:31 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 01:13:34 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 02:30:26 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 02:30:26 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/lifewafb/public_html/authentication.php on line 3
+[11-Sep-2014 02:38:09 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 02:51:25 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 02:52:29 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 06:58:56 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 13:28:14 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 13:41:24 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 13:41:29 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 15:24:00 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 15:24:01 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 15:24:26 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 15:26:05 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 15:26:09 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 15:29:21 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 15:29:25 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 15:54:26 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 15:54:27 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 15:55:25 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 15:55:26 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 15:59:28 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 15:59:29 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 16:01:43 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 16:01:44 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 16:03:11 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 16:03:12 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 16:03:12 Etc/GMT] PHP Warning:  Division by zero in /home/lifewafb/public_html/app.php on line 278
+[11-Sep-2014 16:03:44 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 16:03:45 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 16:05:47 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 16:05:48 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 16:08:19 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 16:08:21 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 16:09:11 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 16:09:12 Etc/GMT] CSRF state token does not match one provided.
+[11-Sep-2014 22:36:02 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:50:19 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:50:24 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:50:48 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:50:49 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:51:46 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:51:47 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:52:03 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:52:05 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:52:21 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:52:22 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:52:39 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:52:40 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:52:58 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:52:59 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:55:53 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/lifewafb/public_html/app.php on line 279
+[12-Sep-2014 04:56:18 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/lifewafb/public_html/app.php on line 279
+[12-Sep-2014 04:56:51 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/lifewafb/public_html/app.php on line 279
+[12-Sep-2014 04:57:15 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/lifewafb/public_html/app.php on line 279
+[12-Sep-2014 04:57:52 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/lifewafb/public_html/app.php on line 279
+[12-Sep-2014 04:57:54 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/lifewafb/public_html/app.php on line 279
+[12-Sep-2014 04:57:57 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/lifewafb/public_html/app.php on line 279
+[12-Sep-2014 04:58:16 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:58:17 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:59:09 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:59:10 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:59:24 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 04:59:25 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 05:00:11 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 05:00:12 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 05:22:25 Etc/GMT] PHP Parse error:  syntax error, unexpected 'user_img' (T_STRING), expecting ',' or ';' in /home/lifewafb/public_html/app.php on line 279
+[12-Sep-2014 05:22:59 Etc/GMT] PHP Parse error:  syntax error, unexpected 'user_img' (T_STRING), expecting ',' or ';' in /home/lifewafb/public_html/app.php on line 279
+[12-Sep-2014 05:23:53 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/lifewafb/public_html/app.php on line 279
+[12-Sep-2014 05:24:46 Etc/GMT] PHP Parse error:  syntax error, unexpected 'user_img' (T_STRING), expecting ',' or ';' in /home/lifewafb/public_html/app.php on line 279
+[12-Sep-2014 05:26:33 Etc/GMT] PHP Parse error:  syntax error, unexpected 'user_img' (T_STRING), expecting ',' or ';' in /home/lifewafb/public_html/app.php on line 279
+[12-Sep-2014 05:26:59 Etc/GMT] PHP Parse error:  syntax error, unexpected 'user_img' (T_STRING), expecting ',' or ';' in /home/lifewafb/public_html/app.php on line 279
+[12-Sep-2014 05:41:02 Etc/GMT] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/lifewafb/public_html/app.php on line 279
+[12-Sep-2014 06:00:47 Etc/GMT] PHP Parse error:  syntax error, unexpected 'user_img' (T_STRING), expecting ',' or ';' in /home/lifewafb/public_html/app.php on line 278
+[12-Sep-2014 06:47:48 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 07:43:01 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 07:43:06 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 15:28:51 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 15:28:56 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 15:49:46 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 15:49:48 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 15:51:10 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 15:51:11 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 16:01:00 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:17:48 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:17:53 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:21:39 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:21:40 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:31:18 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:31:19 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:32:03 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:32:04 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:45:37 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:45:38 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:45:55 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:45:56 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:52:45 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:52:46 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:54:25 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:54:27 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:54:56 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:54:57 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:56:28 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:56:29 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:58:51 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 18:58:52 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:01:23 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:01:24 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:02:32 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:02:33 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:03:14 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:03:15 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:08:05 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:08:06 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:12:41 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:12:42 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:14:40 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:14:42 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:16:08 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:16:09 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:16:56 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:16:57 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:17:33 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:17:34 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:18:05 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:18:06 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:18:21 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:18:23 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:20:26 Etc/GMT] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/lifewafb/public_html/app.php on line 242
+[12-Sep-2014 19:27:48 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:27:49 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:28:34 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:28:35 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:29:21 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:29:22 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:31:29 Etc/GMT] CSRF state token does not match one provided.
+[12-Sep-2014 19:31:31 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 00:04:39 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 00:04:44 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 02:17:24 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 02:17:31 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 02:21:10 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 05:45:16 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 05:45:22 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 05:46:24 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 05:46:25 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 05:47:35 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 05:47:36 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 06:03:01 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 06:03:02 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 06:12:58 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 06:13:04 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 06:13:42 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 06:13:43 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 06:23:14 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 06:23:15 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 06:24:05 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 06:24:06 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 06:25:37 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 06:25:38 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 06:26:29 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 06:26:30 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 08:05:21 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 08:05:27 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 08:19:42 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 08:19:43 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 08:23:02 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 08:23:03 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 08:23:28 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 08:23:29 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 08:27:03 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 08:27:04 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 08:27:34 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 08:27:35 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 08:35:47 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 08:35:48 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 08:36:04 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 08:36:05 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 12:18:37 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 12:18:43 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 12:50:36 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 12:50:48 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 12:52:23 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 12:52:24 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 12:53:11 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 12:53:12 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 12:54:26 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 12:54:27 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 12:55:01 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 12:55:02 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:01:23 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:01:24 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:02:00 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:02:01 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:02:46 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:02:47 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:11:18 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:11:19 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:11:35 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:11:36 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:11:52 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:11:53 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:12:08 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:12:09 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:35:15 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:35:16 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:35:44 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:35:45 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:41:15 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:41:17 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:41:52 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:41:53 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:43:27 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:43:28 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:46:08 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 13:46:09 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 14:15:45 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 14:15:46 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 16:56:45 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 16:56:52 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:05:18 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:05:20 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:08:52 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:08:53 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:12:49 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:12:50 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:16:13 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:16:14 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:18:36 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:18:37 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:19:23 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:19:24 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:54:41 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:54:42 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:57:02 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:57:03 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:57:39 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 17:57:40 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 18:00:06 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 18:00:07 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 19:40:10 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 19:40:15 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 21:58:40 Etc/GMT] CSRF state token does not match one provided.
+[13-Sep-2014 21:58:44 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 02:20:19 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 02:20:30 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 07:07:43 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 07:07:49 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 07:10:08 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 07:10:09 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 07:10:30 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 07:10:31 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 08:00:54 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 08:00:59 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 08:01:44 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 12:56:29 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 12:56:35 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:20:51 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:20:52 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:21:11 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:21:12 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:21:51 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:21:52 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:26:52 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:26:53 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:28:43 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:28:44 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:31:10 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:31:11 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:31:44 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:31:45 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:32:19 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:32:20 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:33:02 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:33:03 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:33:30 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:33:31 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:33:44 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:33:45 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:35:21 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:35:22 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:35:45 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:35:46 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:36:09 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:36:10 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:43:21 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 13:43:22 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:03:43 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:14:41 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:14:45 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:15:59 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:16:00 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:16:18 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:16:19 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:18:10 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:18:11 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:19:19 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:19:21 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:20:33 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:20:35 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:23:31 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:23:32 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:24:17 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:24:18 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:25:14 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:25:15 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:25:48 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:25:49 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:26:21 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:26:22 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:28:34 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:28:35 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:28:58 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:28:59 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:29:37 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:29:38 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:30:51 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:30:53 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:31:15 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:31:16 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:32:39 Etc/GMT] CSRF state token does not match one provided.
+[14-Sep-2014 15:32:40 Etc/GMT] CSRF state token does not match one provided.
+[17-Sep-2014 11:26:37 Etc/GMT] CSRF state token does not match one provided.
+[17-Sep-2014 11:27:11 Etc/GMT] CSRF state token does not match one provided.
+[17-Sep-2014 11:50:24 Etc/GMT] CSRF state token does not match one provided.
+[17-Sep-2014 11:50:25 Etc/GMT] CSRF state token does not match one provided.
+[17-Sep-2014 21:58:11 Etc/GMT] CSRF state token does not match one provided.
+[17-Sep-2014 21:58:17 Etc/GMT] CSRF state token does not match one provided.
+[20-Sep-2014 11:14:56 Etc/GMT] CSRF state token does not match one provided.
+[20-Sep-2014 11:15:02 Etc/GMT] CSRF state token does not match one provided.

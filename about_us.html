@@ -1,0 +1,315 @@
+<!DOCTYPE HTML>
+<html xmlns:fb="http://ogp.me/ns/fb#" lang="en">
+    <head>
+        <title>About Us</title>
+        <meta property="fb:app_id" content="834481703238074" />
+
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <meta property="og:image" content="img/50by50.jpg"/>
+		<link rel='shortcut icon' type='image/x-generic' href='/favicon.ico' />
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <noscript>
+        <?php
+        if($_GET["action"]!="errorpage")
+        echo "<meta http-equiv=\"refresh\" content=\"0; url=index.php?action=errorpage\" />";
+        ?>
+        </noscript>
+        <![endif]-->
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="Pitamber Singh">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LifeWin - Habits to Success | Benefits </title>
+        <link href="css/icomoon.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/consultant.css" rel="stylesheet" type="text/css">
+        <!--CSS SECTION END-->
+
+    </head>
+    <body>
+    <div id="fb-root"></div>
+        <script>
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1434661150080596";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <div class="modal fade" id="login_signup_box">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-6 loginbox">
+                                <h4 class="modal-title">Login to your account</h4>
+                                <div class="form-group">
+                                    <a href="fblogin.php" class="signin-fb btn btn-primary btn-fb">Login With Facebook</a>
+                                    <a href="#" class="btn btn-danger btn-google">Login With Google +</a>
+                                    <!-- <a href="https://www.facebook.com/dialog/oauth?client_id=834481703238074&redirect_uri=http://lifewin.co/app.php" class="btn btn-primary btn-fb">Login With Facebook</a> -->
+                                </div>
+
+                                <div class="form-group">
+                                    <img src="img/sep.png" alt="">
+                                </div>
+                                <div class="clearfix"></div>
+                                <form method="post">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email_login" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="password_login" placeholder="Password">
+                                    </div>
+                                    <div class="form-group text-left">
+                                        <button type="submit" class="btn btn-primary btnlogin">Login</button>
+                                        <button type="submit" class="btn btn-danger btnresetpass">Reset Password</button>
+
+                                        <p class="text-left pull-right"><a id="forgetPass" href="#">Forgot Password </a></p>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 signup">
+                                <h4 class="modal-title">Sign up to play</h4>
+                                <form method="post">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="password" placeholder="Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="confirmpassword" placeholder="Confirm Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-danger">Sign Up</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        <header>
+            <div id="headerNav">
+                <div class="container">
+                    <div class="row">
+                        <nav class="navbar navbar-default" role="navigation">
+                            <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header col-md-3">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-menu">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <h1 id="logo"><a href="http://lifewin.co/index.php"><img src="img/logo.png" height="65" width="135" alt="logo" ></a></h1>
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-menu">
+                                    <ul class="nav navbar-nav">
+                                        <li><a href="index.php">Home</a></li>
+                                        <li><a href="benefits.html">Benefits</a></li>
+                                        <li><a href="solutions.html">Solutions</a></li>
+                                        <li><a href="http://blog.lifewin.co">Blog</a></li>
+                                    </ul>
+
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="#" data-toggle="modal" data-target="#login_signup_box">Signup/Login</a></li>
+                                    </ul>
+                                </div><!-- /.navbar-collapse -->
+                            </div><!-- /.container-fluid -->
+                        </nav>            
+                    </div><!--row-->
+                </div><!--container-->
+            </div><!--headernav-->
+        </header>
+
+        <div class="clearfix"></div>
+
+        <div class="clearfix"></div>
+        <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1>Welcome To Our About Us Page</h1>
+                <h2>Know more about us</h2>
+            </div>
+        </div>
+    </header>
+        <div class="clearfix"></div>
+        <section id="benefits-page">
+            <div class="container">
+
+        <hr class="featurette-divider">
+<h2 class="featurette-heading">Lorium Ipsum Heading</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mauris ipsum, euismod nec dui at, elementum hendrerit sem. Nam imperdiet semper justo, in euismod risus vestibulum eget. Phasellus cursus, tortor sed tempor lacinia, purus magna rhoncus ligula, in cursus elit neque a est. Mauris dolor sapien, pulvinar at nulla ut, vestibulum auctor nulla. In molestie, elit non viverra rutrum, mi est ornare tellus, non ultricies metus lectus eget nunc. Donec convallis lectus at arcu faucibus, eget porta velit tempus. Quisque dapibus ut ante vitae accumsan. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ac dui ac lectus auctor scelerisque eu et erat. Duis sollicitudin nulla et est facilisis, eget placerat felis pellentesque. Proin id erat malesuada, consequat risus vitae, hendrerit ante.</p>
+
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce ac viverra tortor. Donec nec velit eu mi fermentum lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi tincidunt, lorem a auctor malesuada, nibh tellus posuere sapien, ac elementum quam lorem in orci. Maecenas eu tortor in orci pretium molestie. Integer in sapien in augue consequat egestas. Vestibulum est massa, tristique eu tristique at, lobortis quis metus. Pellentesque nisl elit, tincidunt quis justo sit amet, tristique tincidunt dolor. Nullam quis mi malesuada, condimentum quam ut, vulputate nibh. Praesent ut iaculis lectus. Morbi sed lacinia mauris. Vestibulum pulvinar lorem sed orci bibendum, sed molestie arcu congue. Aliquam erat volutpat.</p>
+
+
+<div class="row">
+<br>
+<h1>Contact Us</h1>
+
+
+<div class="col-sm-8">
+	<input type="text" class="textbox_techarays" placeholder="Enter Your Name" onFocus="placeholder=''" onBlur="placeholder='Enter Your Name'">
+    
+    <input type="email" class="textbox_techarays" placeholder="Enter Your Valid email ID" onFocus="placeholder=''" onBlur="placeholder='Enter Your Valid email ID'">
+    
+    <textarea class="textbox_techarays" placeholder="Enter Your Message" onFocus="placeholder=''" onBlur="placeholder='Enter Your Message'"></textarea>
+<input type="button" id="my_button_contact" value="Send Your Query" />
+</div><!--col-sm-8-->
+<div class="col-sm-4">
+                <h2>Contact Us</h2>
+                <address>
+                    <strong>12.	LifeWin Solutions </strong>
+                    <br>1 Dreams Lane
+                    <br>Over Sky, IND 1111
+                    <br>
+                </address>
+                <address>
+                    <abbr title="Phone">Phone:</abbr>(123) 456-7890
+                    <br>
+                    <abbr title="Email">Email:</abbr> <a href="mailto:#">name@example.com</a>
+                </address>
+            </div>
+
+
+
+
+</div>
+
+    </div>
+        </section>
+
+
+        <div class="clearfix"></div>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <h3><a href="http://lifewin.co/">LifeWin</a></h3>
+                        <p>A New Generation Personal Productivity App</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="benefits.html">Benefits</a></li>
+                            <li><a href="solutions.html">Solutions</a></li>
+                            <li><a href="http://blog.lifewin.co">Blog</a></li>
+                        </ul>
+                    </div> 
+                    <div class="col-sm-6 col-md-3">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">FAQ's</a></li>
+                        </ul>
+                    </div> 
+                    <div class="col-sm-6 col-md-3">
+                        <h3> Social </h3>
+                        <ul>
+                            <li><a target="_blank" href="https://www.facebook.com/lifewinapp">
+                                    <img src="img/fb.png" alt="LifeWin Facebook Page" class="img-responsive" />
+                                    facebook.com/LifeWinApp
+                                </a></li>
+                            <li><a target="_blank" href="https://twitter.com/lifewinapp">
+                                    <img src="img/twitter.png" alt="LifeWin Twitter Page" class="img-responsive" />
+                                    twitter.com/LifeWinApp
+                                </a></li>
+                            <li><a target="_blank" href="http://www.reddit.com/r/lifewin/">
+                                    <img src="img/reddit.png" alt="LifeWin sub-reddit" class="imag-responsive" height="32" width="32"/>
+                                    reddit.com/r/LifeWin
+                                </a></li>
+                            <!--Link to Google Profile hidden, as we have none
+        <li><a target="_blank" href="#"><img src="img/google.png" alt="" class="img-responsive" /></a></li>-->
+                        </ul>
+                    </div>                        
+                </div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" charset="utf-8" src="js/jquery-2.0.3.min.js"></script> 
+        <script type="text/javascript" charset="utf-8" src="js/bootstrap.min.js"></script> 
+        <script type="text/javascript" charset="utf-8" src="js/custom.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jquery.flexisel.js"></script>
+         <script type="text/javascript">
+            $(document).ready(function() {
+                $(document).on('click', '#forgetPass', function(event) {
+                    event.preventDefault();
+                    $('.btnlogin,#password_login').hide();
+                    $('.btnresetpass').show();
+                    $('#forgetPass').text('Sign In');
+                    $('#forgetPass').addClass('signin');
+                });
+                $(document).on('click', '#forgetPass.signin', function(event) {
+                    event.preventDefault();
+                    $('.btnlogin,#password_login').show();
+                    $('.btnresetpass').hide();
+                    $('#forgetPass').text('Forgot Password');
+                    $('#forgetPass').removeClass('signin');
+                });
+            });
+            
+            function alert_sucess(msg){
+                $('.selection-success').html('<div class="alert alert-success">'+ msg +'</div>');
+                $('.selection-success').fadeIn('slow');
+                $('.selection-success').addClass('open');
+                setTimeout(function(){
+                    $('.selection-success').removeClass('open');
+                    $('.selection-success').fadeOut('slow');
+                    
+                },2000);
+            }
+            function alert_error(msg){
+                $('.selection-error').html('<div class="alert alert-danger">'+ msg +'</div>');
+                $('.selection-error').fadeIn('slow');
+                $('.selection-error').addClass('open');
+                setTimeout(function(){
+                    $('.selection-error').removeClass('open');
+                    $('.selection-error').fadeOut('slow');
+                     
+                },2000);
+            } 
+        </script>
+        <script>
+            $(document).ready(function(){
+        
+                $('.panel-title a').click(function(){
+                    var flag =  $(this).children('span.glyphicon').hasClass('glyphicon-minus');
+                    if(flag == true)
+                    {
+                        $(this).children('.glyphicon.glyphicon-minus').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+                    }
+                    else{
+                        $('.panel-title a .glyphicon').addClass('glyphicon-plus').removeClass('glyphicon-minus');
+                        $(this).children('.glyphicon.glyphicon-plus').addClass('glyphicon-minus').removeClass('glyphicon-plus');
+                    }
+                });
+        
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,2 @@
+AuthName "blog"
+AuthUserFile "/home/lifewafb/.htpasswds/public_html/img/passwd"

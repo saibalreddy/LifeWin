@@ -1,0 +1,40 @@
+img{
+position:absolute;
+top:0px;
+padding-left:80px;
+
+}
+
+.container {
+color: #000000;
+font-size:15px;
+font-weight:bold;
+padding-left:10px;
+text-transform:uppercase;
+display:flex;
+}
+.container h1{
+position:relative;
+padding-top:-2px;
+padding-left:170px;
+display:flex;
+}
+
+.container li{
+color: #000000;
+position:relative;
+font-size:15px;
+font-weight:bold;
+padding-top:10px;
+text-transform:uppercase;
+display:inline;
+}
+
+.container  p{
+font-style:bold;
+position:relative;
+top:20px;
+font-family:serif;
+text-transform:uppercase;
+
+}
